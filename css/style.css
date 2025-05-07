@@ -83,7 +83,7 @@ a:hover {
 }
 
 .light-background {
-  background-color: #f4fafd;
+  background-color: 	#f0faff;
 }
 
 .box-shadow,
@@ -446,7 +446,8 @@ a:hover {
 
 .navbar-b {
   transition: all .5s ease-in-out;
-  background-color:  rgba(10, 10, 10, 0.7);
+  /* background-color:  rgba(10, 10, 10, 0.01); */
+  background: transparent;
   padding-top: 1.563rem;
   padding-bottom: 1.563rem;
 }
@@ -519,7 +520,7 @@ a:hover {
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: rgba(10, 10, 10, 0.7);
+  background-color: rgba(5, 5, 5, 0.7);
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -677,6 +678,28 @@ a:hover {
   }
 }
 
+
+.info-table {
+  display: table;
+  width: 100%;
+}
+
+.info-row {
+  display: table-row;
+  margin-bottom: 8px;
+}
+
+.info-row span {
+  display: table-cell;
+  padding: 2px 4px;
+  vertical-align: top;
+}
+
+.title-s {
+  font-weight: bold;
+  width: 120px;
+  color: #333;
+}
 
 /*======================================
 //--//-->   INTRO
@@ -1511,6 +1534,10 @@ a:hover {
 /*======================================
 //--//-->   CONTACT
 ======================================*/
+.contact-form{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
 
 /*======================================
 //--//-->   FOOTER
@@ -1714,10 +1741,11 @@ footer .credits a {
 }
 
 .copyright-box{
-  color: black;
+  color: white;
   text-align: center;
   align-items: center;
   padding:20px;
   margin: 0;
-  border-top: 1px solid gainsboro;
+  border-top: 1px dashed white;
+  background-color: black;
 }
